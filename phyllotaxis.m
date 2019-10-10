@@ -59,7 +59,7 @@ function phyllotaxis(angle, c, sizes, fig_handle)
 
     % Plot the result
     set(fig_handle, 'Color',[51 51 51]./255);
-    scatter(fig_handle, x, y, s, c_rgb, 'filled');
+    scatter(x, y, s, c_rgb, 'filled');
     axis equal;
     axis([-lims(1) lims(1) -lims(2) lims(2)]);
     axis off;
